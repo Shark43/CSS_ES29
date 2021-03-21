@@ -1,0 +1,40 @@
+*{
+    margin: 0px;    
+    padding: 0px;
+}
+#wraper{
+    background-color: #AAAAAA;
+    width: 350px;
+    height: 350px;
+    position: relative;
+
+    /*il rendering non sente gli elementi position absolut*/
+}
+.box{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+    border: 1px solid black;
+    position: absolute;
+}
+#box1{
+    background-color: #FFFFAA;
+    left: 50px;
+    top: 50px;;
+}
+#box2{
+    background-color: #AFA;
+    /*left: 125px;
+    top: 125px;*/
+    left:50%;
+    top:50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    z-index: 2;
+}
+#box3{
+    background-color: #AAF;
+    bottom: 50px;
+    right:50px;
+}
